@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SIS434DN")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SIS434DN.kicad_sym")(options "")(descr ""))
+  (lib (name "BuzzerSMD")(type "KiCad")(uri "${KIPRJMOD}/Symbols/BuzzerSMD.kicad_sym")(options "")(descr ""))
+)

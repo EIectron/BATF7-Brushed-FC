@@ -1,0 +1,2973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\user\Documents\Github\Tiny-Drone\Hardware\V2\TinyDrone-V2.kicad_sch</source>
+    <date>24.03.2024 23:41:49</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BAT/F7</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>TinyDrone-V2.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/">
+      <title_block>
+        <title>Power Management</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>power_management.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/">
+      <title_block>
+        <title>Main Controller</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>main_controller.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/USB Communication/" tstamps="/9b5e01bc-c5a9-431f-b6d1-e0f1b4cf6d83/">
+      <title_block>
+        <title>USB Device</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>usb.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/">
+      <title_block>
+        <title>IMU</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>imu.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Black Box/" tstamps="/510e5207-f62e-4d7b-8987-59ebaacfc727/">
+      <title_block>
+        <title>BlackBox</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>blackbox.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/">
+      <title_block>
+        <title>Warnings</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>warnings.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/ExpressLRS/" tstamps="/5fabc182-193a-475a-b2f4-3a6856b08b08/">
+      <title_block>
+        <title>ExpressLRS Receiver</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>ExpressLRS.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/">
+      <title_block>
+        <title>40V 35A Brushed Motor Drivers</title>
+        <company>Kolamuc Design</company>
+        <rev>1</rev>
+        <date>2024-03-23</date>
+        <source>motor_controller.kicad_sch</source>
+        <comment number="1" value="alperen.kolamu@gmail.com"/>
+        <comment number="2" value="Alperen KOLAMUÇ"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>841b4faa-94b5-4585-9ab1-cad5fb1f9f66</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 10uF 10VDC ±20% X5R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05A106MP5NUNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05A106MP5NUNC/457532</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 10uF 10VDC ±20% X5R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05A106MP5NUNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05A106MP5NUNC/457532"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>24eeb4af-b191-4870-9577-8321840cc031</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>7cedc88f-2b1f-4dd6-9854-c7f3eb670d92</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>6296acf7-a053-46ba-b619-7f92de6b49a3</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>e67158ff-2974-46d0-a717-5c25ca940ef1</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Alperen:SOD-323</footprint>
+      <datasheet>./Documents/Datasheet/1N5819HW.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 1A 40V SOD123</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package-Case">SOD123</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">1N5819HW-7-F</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Description" value="DIODE SCHOTTKY 1A 40V SOD123"/>
+      <property name="Manufacturer" value="Diodes"/>
+      <property name="Package-Case" value="SOD123"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="1N5819HW-7-F"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>6974d4b0-45e9-4feb-b1d4-31989dfe16fa</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>1S Lipo</value>
+      <footprint>Library:1x02-Long-Pad</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>883586cd-1f56-47ef-b360-99dd60cc8a83</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1uH</value>
+      <footprint>Inductor_SMD:L_Murata_DFE201610P</footprint>
+      <datasheet>./Documents/Datasheet/DFE201612PD.pdf</datasheet>
+      <fields>
+        <field name="Description">INDUCTOR FIXED 1UH 2.2A SMD</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package-Case">0806 </field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">DFE201612PD-1R0M=P2</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/induktorler/sabit-induktorler/DFE201612PD-1R0MP2/737276</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Package-Case" value="0806 "/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="INDUCTOR FIXED 1UH 2.2A SMD"/>
+      <property name="Suplier Part Number" value="DFE201612PD-1R0M=P2"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/induktorler/sabit-induktorler/DFE201612PD-1R0MP2/737276"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>79ab7148-7cab-4e36-924f-69f3f7cb5b21</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>220R</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>./Documents/Ferrite_MURATA.pdf</datasheet>
+      <fields>
+        <field name="Description">FERRITE BEAD 0603 220R 1.4A</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package-Case">0603</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">BLM18PG221SN1D</field>
+        <field name="URL">https://b2b.ozdisan.com/Product/Detail/484088/BLM18PG221SN1D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Description" value="FERRITE BEAD 0603 220R 1.4A"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="BLM18PG221SN1D"/>
+      <property name="Package-Case" value="0603"/>
+      <property name="URL" value="https://b2b.ozdisan.com/Product/Detail/484088/BLM18PG221SN1D"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>79d664ac-04c2-47a1-85ec-41663bc060f1</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML6402</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>./Documents/Datasheet/IRLML6402TRPBF.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET DIS.3.7A 20V P-CH SOT23 HEXFET SMT</field>
+        <field name="Manufacturer">IR</field>
+        <field name="Package-Case">SOT23</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">IRLML6402TRPBF</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/420776/IRLML6402TRPBF</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="Package-Case" value="SOT23"/>
+      <property name="Manufacturer" value="IR"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="MOSFET DIS.3.7A 20V P-CH SOT23 HEXFET SMT"/>
+      <property name="Suplier Part Number" value="IRLML6402TRPBF"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/420776/IRLML6402TRPBF"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel HEXFET MOSFET"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>3256b016-1e9a-4663-a61c-1ba466287bac</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>3fd3f4e9-7bca-402b-9c8f-17b26a7ca874</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>899757f0-09d2-4b70-ab9f-5bbfe12b0b4b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 100K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0104TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0104TCE/402504</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 100K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0104TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0104TCE/402504"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>6f5c358a-82c8-4aed-bf7f-9068a983a844</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS63031DSK</value>
+      <footprint>Package_SON:WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps63031.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TPS63031DSK" description="Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="power_management.kicad_sch"/>
+      <property name="ki_description" value="Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)"/>
+      <property name="ki_keywords" value="Buck-Boost fixed 3.3V converter"/>
+      <sheetpath names="/Power Management/" tstamps="/24022729-d401-4d6c-92da-1635a1793aa7/"/>
+      <tstamps>c5caef7f-52f4-4d56-8c41-96f153f14db3</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 2.2uF 6.3VDC ±20% X5R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05A225MQ5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05A225MQ5NNNC/521876</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 2.2uF 6.3VDC ±20% X5R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05A225MQ5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05A225MQ5NNNC/521876"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>02ce42a8-1657-4703-b72a-94858115602b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Murata.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 4.7uF 10VDC ±20 X5R</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">GRM155R61A475MEAAD</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/GRM155R61A475MEAAD/627444</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 4.7uF 10VDC ±20 X5R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="GRM155R61A475MEAAD"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/GRM155R61A475MEAAD/627444"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>f8f43e3a-b0c5-4b27-aa64-d068ce497881</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>f4e29207-1d70-4290-8efe-853a6d2d24b2</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>3f57e1a3-98d5-46ac-991b-f02b826997a8</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>10ae88f6-4186-4157-bfc5-7e01d16cea07</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>4d43b5c6-f243-4a39-9d2a-88821a824d9f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>007ea227-9427-4337-a744-263d48f55ad0</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>8ba361a4-167e-49a6-b59f-44d120263b2a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>fedb4346-f461-44ad-81c7-94c709b3e902</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>d99321c4-d3f3-4ec8-9047-c81483bb5e5e</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>B3U-1000P</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <datasheet>./Documents/Datasheet/B3U-1000P.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH TACT 3.00x2.50 1.60mm 153gF SMT V/T</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Package-Case">SMT V/T</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">B3U-1000P</field>
+        <field name="URL">https://ozdisan.com/elektromekanik-komponentler/sivicler-ve-anahtarlar/tact-sivicler/B3U-1000P/517704</field>
+      </fields>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Description" value="SWITCH TACT 3.00x2.50 1.60mm 153gF SMT V/T"/>
+      <property name="Manufacturer" value="Omron"/>
+      <property name="Package-Case" value="SMT V/T"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="B3U-1000P"/>
+      <property name="URL" value="https://ozdisan.com/elektromekanik-komponentler/sivicler-ve-anahtarlar/tact-sivicler/B3U-1000P/517704"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="MEC 5G single pole normally-open tactile switch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>02761e4e-5596-408e-8477-cb9d00878cf6</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>U1_TX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>65172e47-8794-4b46-be35-2ff232c4e755</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>U1_RX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>450d4831-80dd-4a4a-82a5-56fffccfb4e6</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>SWDIO</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>de4cca72-de83-45b7-8580-e355f5886cd0</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>SWCLK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>87bc7dad-c29f-49c7-a5de-5a0f89aba640</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>SWO</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>c6acbef3-308d-4469-95db-70ae7008b2b1</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>NRST</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>a2afc948-01ba-4b10-970f-257f07aa33e9</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>PB0</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>d344200a-546e-4daf-a2d2-01ef01375335</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>STM32F722RETx</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>./Documents/Datasheet/STM32F722RT.pdf</datasheet>
+      <fields>
+        <field name="Description">IC MCU 32BIT 512KB FLASH 64LQFP</field>
+        <field name="Manufacturer">STM</field>
+        <field name="Package-Case">LQFP64</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">STM32F722RET6</field>
+        <field name="URL">https://ozdisan.com/entegre-devreler-icler/embedded-entegreler/mikroislemciler/STM32F722RET6/638141</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F7" part="STM32F722RETx" description="STMicroelectronics Arm Cortex-M7 MCU, 512KB flash, 256KB RAM, 216 MHz, 1.7-3.6V, 50 GPIO, LQFP64"/>
+      <property name="Package-Case" value="LQFP64"/>
+      <property name="Manufacturer" value="STM"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="IC MCU 32BIT 512KB FLASH 64LQFP"/>
+      <property name="Suplier Part Number" value="STM32F722RET6"/>
+      <property name="URL" value="https://ozdisan.com/entegre-devreler-icler/embedded-entegreler/mikroislemciler/STM32F722RET6/638141"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="STMicroelectronics Arm Cortex-M7 MCU, 512KB flash, 256KB RAM, 216 MHz, 1.7-3.6V, 50 GPIO, LQFP64"/>
+      <property name="ki_keywords" value="Arm Cortex-M7 STM32F7 STM32F7x2"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>c9823b28-5bce-4c73-afd5-57aa95c9b2db</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm</footprint>
+      <datasheet>./Documents/Datasheet/CSTCE8M00G55-R0.pdf</datasheet>
+      <fields>
+        <field name="Description">CRYSTAL RESONATOR 8.00MHZ 33PF SMD</field>
+        <field name="Manufacturer">MURATA</field>
+        <field name="Package-Case">3-SMD</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CSTCE8M00G55-R0</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kristaller-osilatorler-ve-rezanatorler/rezonatorler/CSTCE8M00G55-R0/708030</field>
+      </fields>
+      <libsource lib="Device" part="Resonator_Small" description="Three pin ceramic resonator, small symbol"/>
+      <property name="Package-Case" value="3-SMD"/>
+      <property name="Manufacturer" value="MURATA"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="CRYSTAL RESONATOR 8.00MHZ 33PF SMD"/>
+      <property name="Suplier Part Number" value="CSTCE8M00G55-R0"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kristaller-osilatorler-ve-rezanatorler/rezonatorler/CSTCE8M00G55-R0/708030"/>
+      <property name="Sheetname" value="Main Controller"/>
+      <property name="Sheetfile" value="main_controller.kicad_sch"/>
+      <property name="ki_description" value="Three pin ceramic resonator, small symbol"/>
+      <property name="ki_keywords" value="ceramic resonator"/>
+      <sheetpath names="/Main Controller/" tstamps="/96b3ae20-d768-40ef-8c52-918b9e0a9fbf/"/>
+      <tstamps>80c740ae-4d70-475a-87f6-62a04302859e</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA/6V</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <datasheet>./Documents/Datasheet/KMC2S050RY.pdf</datasheet>
+      <fields>
+        <field name="Description">THERMISTOR PTC RESETTABLE FUSE 0805 500mA 6V</field>
+        <field name="Manufacturer">Thinking</field>
+        <field name="Package-Case">0805 </field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">KMC2S050RY</field>
+        <field name="URL">https://ozdisan.com/devre-koruyucular/sigorta-bilesenleri/ptc-sigortalar/KMC2S050RY/645180</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="Package-Case" value="0805 "/>
+      <property name="Manufacturer" value="Thinking"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="THERMISTOR PTC RESETTABLE FUSE 0805 500mA 6V"/>
+      <property name="Suplier Part Number" value="KMC2S050RY"/>
+      <property name="URL" value="https://ozdisan.com/devre-koruyucular/sigorta-bilesenleri/ptc-sigortalar/KMC2S050RY/645180"/>
+      <property name="Sheetname" value="USB Communication"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/USB Communication/" tstamps="/9b5e01bc-c5a9-431f-b6d1-e0f1b4cf6d83/"/>
+      <tstamps>af02a886-0d4b-4ca6-8e94-23aacb005b29</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>1051330011</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105133-0031</footprint>
+      <datasheet>./Documents/Datasheet/1051330011.pdf</datasheet>
+      <fields>
+        <field name="Description">CONNECTOR MICRO USB B TYPE 2.0 VERT SMT 180C</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Package-Case">SMT V/T</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">MOLEX-1051330011</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/705161/MOLEX-1051330011</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="MOLEX-1051330011"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/705161/MOLEX-1051330011"/>
+      <property name="Package-Case" value="SMT V/T"/>
+      <property name="Description" value="CONNECTOR MICRO USB B TYPE 2.0 VERT SMT 180C"/>
+      <property name="Sheetname" value="USB Communication"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_description" value="USB Micro Type B connector"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <sheetpath names="/USB Communication/" tstamps="/9b5e01bc-c5a9-431f-b6d1-e0f1b4cf6d83/"/>
+      <tstamps>47f64c4d-432e-4cea-b7f7-462541ab3371</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>22R %1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Yageo.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 22 Ohms 1% 1/16W 100PPM SMT</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">RC0402FR-0722RL</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/RC0402FR-0722RL/437110</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 22 Ohms 1% 1/16W 100PPM SMT"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="RC0402FR-0722RL"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/RC0402FR-0722RL/437110"/>
+      <property name="Sheetname" value="USB Communication"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/USB Communication/" tstamps="/9b5e01bc-c5a9-431f-b6d1-e0f1b4cf6d83/"/>
+      <tstamps>1cd389d7-a748-4b36-ab1c-5c910b9481fa</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>22R %1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Yageo.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 22 Ohms 1% 1/16W 100PPM SMT</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">RC0402FR-0722RL</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/RC0402FR-0722RL/437110</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 22 Ohms 1% 1/16W 100PPM SMT"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="RC0402FR-0722RL"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/RC0402FR-0722RL/437110"/>
+      <property name="Sheetname" value="USB Communication"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/USB Communication/" tstamps="/9b5e01bc-c5a9-431f-b6d1-e0f1b4cf6d83/"/>
+      <tstamps>e11c076d-276e-424b-ad40-1f03f9c5b061</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>15K %1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 15K Ohms 1% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGF1502TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGF1502TCE/350350</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 15K Ohms 1% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGF1502TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGF1502TCE/350350"/>
+      <property name="Sheetname" value="USB Communication"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/USB Communication/" tstamps="/9b5e01bc-c5a9-431f-b6d1-e0f1b4cf6d83/"/>
+      <tstamps>bd0480df-a5f4-4068-afca-1984b5403d24</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>22K %1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 22K Ohms 1% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGF2202TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGF2202TCE/359884</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 22K Ohms 1% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGF2202TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGF2202TCE/359884"/>
+      <property name="Sheetname" value="USB Communication"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/USB Communication/" tstamps="/9b5e01bc-c5a9-431f-b6d1-e0f1b4cf6d83/"/>
+      <tstamps>d2f5fd02-b690-4ab5-9c21-d40a0688df8e</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>c9f95843-635d-4b91-8a36-d7154d4c6a14</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 10nF 50VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B103KB5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B103KB5NNNC/30282</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 10nF 50VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B103KB5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B103KB5NNNC/30282"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>39418c9c-57c9-403f-b8c0-0a2b1e336781</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>654e006c-de93-4b29-98c8-53969db7e5a5</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>53104d89-716b-451d-9f84-8027ebca1a99</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>92ea8058-0ac4-46a1-9d41-0b9e6036f242</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 4.7K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0472TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0472TCE/431884</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 4.7K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0472TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0472TCE/431884"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>df2362f0-9936-45bc-b2cb-cab32460bdb6</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 4.7K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0472TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0472TCE/431884</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 4.7K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0472TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0472TCE/431884"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>975831f0-38be-43a2-bae1-221019419095</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MPU-6500</value>
+      <footprint>Alperen:MPU6500</footprint>
+      <datasheet>./Documents/Datasheet/MPU6500.pdf</datasheet>
+      <libsource lib="Alperen" part="MPU-6500" description=""/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>ea2e8139-dffd-4b4e-91b7-99d7832208ed</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MS5611-01BA</value>
+      <footprint>Package_LGA:LGA-8_3x5mm_P1.25mm</footprint>
+      <datasheet>./Documents/Datasheet/MS561101BA03-50.pdf</datasheet>
+      <fields>
+        <field name="Description">SENSOR BAROMETRIC PRESSURE 1.8V-3.6V</field>
+        <field name="Manufacturer">TE CONNECTIVITY</field>
+        <field name="Package-Case">8-SMD</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">MS561101BA03-50</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/616292/MS561101BA03-50</field>
+      </fields>
+      <libsource lib="Sensor_Pressure" part="MS5611-01BA" description="Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"/>
+      <property name="Package-Case" value="8-SMD"/>
+      <property name="Manufacturer" value="TE CONNECTIVITY"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="SENSOR BAROMETRIC PRESSURE 1.8V-3.6V"/>
+      <property name="Suplier Part Number" value="MS561101BA03-50"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/616292/MS561101BA03-50"/>
+      <property name="Sheetname" value="IMU"/>
+      <property name="Sheetfile" value="imu.kicad_sch"/>
+      <property name="ki_description" value="Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"/>
+      <property name="ki_keywords" value="pressure SPI I2C"/>
+      <sheetpath names="/IMU/" tstamps="/0d8c2304-968c-4b08-9e9b-07dfac8908e0/"/>
+      <tstamps>31448105-6280-47f7-8bdc-0a8436ac2a82</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Capacitor-Samsung.pdf</datasheet>
+      <fields>
+        <field name="Description">MLCC (1005) 0402 100nF 16VDC ±10% X7R</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">CL05B104KO5NNNC</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="MLCC (1005) 0402 100nF 16VDC ±10% X7R"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="CL05B104KO5NNNC"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL05B104KO5NNNC/336698"/>
+      <property name="Sheetname" value="Black Box"/>
+      <property name="Sheetfile" value="blackbox.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Black Box/" tstamps="/510e5207-f62e-4d7b-8987-59ebaacfc727/"/>
+      <tstamps>0178ff6e-e1ea-48c5-9e5c-2273ed1ee3a7</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>W25Q80DVUXIE-TR</value>
+      <footprint>Alperen:8-USON</footprint>
+      <datasheet>./Documents/Datasheet/W25Q80DVUXIE.pdf</datasheet>
+      <fields>
+        <field name="Description">IC-25Q80 FLASH 8MB 104MHZ 8-USON</field>
+        <field name="Manufacturer">WINBOND</field>
+        <field name="Package-Case">USON8</field>
+        <field name="Suplier">Ozidsan</field>
+        <field name="Suplier Part Number">W25Q80DVUXIE-TR</field>
+        <field name="URL">https://ozdisan.com/entegre-devreler-icler/hafiza-entegreleri/hafiza-entegreleri/W25Q80DVUXIE-TR/622014</field>
+      </fields>
+      <libsource lib="Alperen" part="W25X20CLUXIG_TR" description=""/>
+      <property name="Package-Case" value="USON8"/>
+      <property name="Manufacturer" value="WINBOND"/>
+      <property name="Suplier" value="Ozidsan"/>
+      <property name="Description" value="IC-25Q80 FLASH 8MB 104MHZ 8-USON"/>
+      <property name="Suplier Part Number" value="W25Q80DVUXIE-TR"/>
+      <property name="URL" value="https://ozdisan.com/entegre-devreler-icler/hafiza-entegreleri/hafiza-entegreleri/W25Q80DVUXIE-TR/622014"/>
+      <property name="Sheetname" value="Black Box"/>
+      <property name="Sheetfile" value="blackbox.kicad_sch"/>
+      <sheetpath names="/Black Box/" tstamps="/510e5207-f62e-4d7b-8987-59ebaacfc727/"/>
+      <tstamps>6296c423-bba5-4d8a-ab19-bed634959508</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>./Documents/Datasheet/HL-PST-1608U51GC.pdf</datasheet>
+      <fields>
+        <field name="Description">LED SMD 0603 GREEN 500mcd 120° WATER CLEAR</field>
+        <field name="Manufacturer">HONGLITRONIC</field>
+        <field name="Package-Case">0603</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">HL-PST-1608U51GC</field>
+        <field name="URL">https://ozdisan.com/led-ve-aydinlatma-cozumleri/led-komponentler/sinyal-ledler-tek-renkli/HL-PST-1608U51GC/471660</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package-Case" value="0603"/>
+      <property name="Manufacturer" value="HONGLITRONIC"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="LED SMD 0603 GREEN 500mcd 120° WATER CLEAR"/>
+      <property name="Suplier Part Number" value="HL-PST-1608U51GC"/>
+      <property name="URL" value="https://ozdisan.com/led-ve-aydinlatma-cozumleri/led-komponentler/sinyal-ledler-tek-renkli/HL-PST-1608U51GC/471660"/>
+      <property name="Sheetname" value="Warnings"/>
+      <property name="Sheetfile" value="warnings.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/"/>
+      <tstamps>5f0d674f-fc14-4749-8e3c-37e15a8a7297</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>./Documents/Datasheet/19-213USRC.pdf</datasheet>
+      <fields>
+        <field name="Description">LED SMD 0603 RED SUNLIGHT</field>
+        <field name="Manufacturer">EVERLIGHT</field>
+        <field name="Package-Case">0603</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">19-213USRC/S259/TR8</field>
+        <field name="URL">https://ozdisan.com/led-ve-aydinlatma-cozumleri/led-komponentler/sinyal-ledler-tek-renkli/19-213USRCS259TR8/645416</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package-Case" value="0603"/>
+      <property name="Manufacturer" value="EVERLIGHT"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="LED SMD 0603 RED SUNLIGHT"/>
+      <property name="Suplier Part Number" value="19-213USRC/S259/TR8"/>
+      <property name="URL" value="https://ozdisan.com/led-ve-aydinlatma-cozumleri/led-komponentler/sinyal-ledler-tek-renkli/19-213USRCS259TR8/645416"/>
+      <property name="Sheetname" value="Warnings"/>
+      <property name="Sheetfile" value="warnings.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/"/>
+      <tstamps>ff03851f-5c39-4360-897b-e1b1438cde64</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>./Documents/Datasheet/MMBT3904.pdf</datasheet>
+      <fields>
+        <field name="Description">TRANSISTOR DIS.200mA 40V NPN SOT23 EPITAXIAL SMT</field>
+        <field name="Manufacturer">HOTTECH</field>
+        <field name="Package-Case">SOT23</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">MMBT3904-HT</field>
+        <field name="URL">https://ozdisan.com/guc-yari-iletkenleri/transistorler/discrete-transistorler/MMBT3904-HT/468189</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Package-Case" value="SOT23"/>
+      <property name="Manufacturer" value="HOTTECH"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Description" value="TRANSISTOR DIS.200mA 40V NPN SOT23 EPITAXIAL SMT"/>
+      <property name="Suplier Part Number" value="MMBT3904-HT"/>
+      <property name="URL" value="https://ozdisan.com/guc-yari-iletkenleri/transistorler/discrete-transistorler/MMBT3904-HT/468189"/>
+      <property name="Sheetname" value="Warnings"/>
+      <property name="Sheetfile" value="warnings.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/"/>
+      <tstamps>af46a759-bb2f-4634-b1b8-050efd3d852b</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 470 Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0471TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0471TCE/453099</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 470 Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0471TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0471TCE/453099"/>
+      <property name="Sheetname" value="Warnings"/>
+      <property name="Sheetfile" value="warnings.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/"/>
+      <tstamps>01a523ee-0f7b-4b14-ac73-0595ace3ebac</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 470 Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0471TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0471TCE/453099</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 470 Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0471TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0471TCE/453099"/>
+      <property name="Sheetname" value="Warnings"/>
+      <property name="Sheetfile" value="warnings.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/"/>
+      <tstamps>72f4c261-9706-4b87-91b6-05a2d1247be1</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>470R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 470 Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0471TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0471TCE/453099</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 470 Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0471TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0471TCE/453099"/>
+      <property name="Sheetname" value="Warnings"/>
+      <property name="Sheetfile" value="warnings.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/"/>
+      <tstamps>8a66f20b-a7d5-4026-8b01-724edb1ec59a</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Warnings"/>
+      <property name="Sheetfile" value="warnings.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/"/>
+      <tstamps>48cf7f5f-1c04-44eb-b971-e99a7e1a3c4b</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>5020</value>
+      <footprint>Alperen:ABMT-801-RC_PIEZO</footprint>
+      <libsource lib="BuzzerSMD" part="5020" description=""/>
+      <property name="Package-Case" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Suplier" value=""/>
+      <property name="Description" value=""/>
+      <property name="Suplier Part Number" value=""/>
+      <property name="URL" value=""/>
+      <property name="Sheetname" value="Warnings"/>
+      <property name="Sheetfile" value="warnings.kicad_sch"/>
+      <sheetpath names="/Warnings/" tstamps="/14747938-1833-4355-8481-bfe591fdfcde/"/>
+      <tstamps>1eb89606-a411-478c-9a06-88c0e36c8b95</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N5819</value>
+      <footprint>Alperen:SOD-323</footprint>
+      <datasheet>./Documents/Datasheet/1N5819HW.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 1A 40V SOD123</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package-Case">SOD123</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">1N5819HW-7-F</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Description" value="DIODE SCHOTTKY 1A 40V SOD123"/>
+      <property name="Manufacturer" value="Diodes"/>
+      <property name="Package-Case" value="SOD123"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="1N5819HW-7-F"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>2aa5f8c7-63f2-4f93-99f9-b16a30542f14</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N5819</value>
+      <footprint>Alperen:SOD-323</footprint>
+      <datasheet>./Documents/Datasheet/1N5819HW.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 1A 40V SOD123</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package-Case">SOD123</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">1N5819HW-7-F</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Description" value="DIODE SCHOTTKY 1A 40V SOD123"/>
+      <property name="Manufacturer" value="Diodes"/>
+      <property name="Package-Case" value="SOD123"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="1N5819HW-7-F"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>7f1f277f-9df4-4b5b-9fa1-b9e1b1c37359</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N5819</value>
+      <footprint>Alperen:SOD-323</footprint>
+      <datasheet>./Documents/Datasheet/1N5819HW.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 1A 40V SOD123</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package-Case">SOD123</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">1N5819HW-7-F</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Description" value="DIODE SCHOTTKY 1A 40V SOD123"/>
+      <property name="Manufacturer" value="Diodes"/>
+      <property name="Package-Case" value="SOD123"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="1N5819HW-7-F"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>ad571ac6-9338-4beb-a00d-6a309538a5c2</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N5819</value>
+      <footprint>Alperen:SOD-323</footprint>
+      <datasheet>./Documents/Datasheet/1N5819HW.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 1A 40V SOD123</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Package-Case">SOD123</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">1N5819HW-7-F</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Description" value="DIODE SCHOTTKY 1A 40V SOD123"/>
+      <property name="Manufacturer" value="Diodes"/>
+      <property name="Package-Case" value="SOD123"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="1N5819HW-7-F"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/417246/1N5819HW-7-F"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>a8b51ce1-e5fa-4764-ae3c-11b671953a3d</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>53047-0210</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical</footprint>
+      <datasheet>./Documents/Datasheet/53047-0210.pdf</datasheet>
+      <fields>
+        <field name="Description">Headers &amp; Wire Housings VERTICAL HDR 2P</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Package-Case">THT/VT</field>
+        <field name="Suplier">Aliexpress</field>
+        <field name="Suplier Part Number">53047-0210</field>
+        <field name="URL">https://tr.aliexpress.com/item/1005005909742256.html?spm=a2g0o.productlist.main.3.7e9b5Eei5EeiE2&amp;algo_pvid=6d470897-52dd-49af-9142-36ed9b0defca&amp;algo_exp_id=6d470897-52dd-49af-9142-36ed9b0defca-1&amp;pdp_npi=4%40dis%21TRY%2136.14%2136.14%21%21%217.67%217.67%21%402101e9ec17112000811413766e71e4%2112000034805206267%21sea%21TR%21755002112%21&amp;curPageLogUid=jTQazxHx8tsk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Headers &amp; Wire Housings VERTICAL HDR 2P"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Package-Case" value="THT/VT"/>
+      <property name="Suplier" value="Aliexpress"/>
+      <property name="Suplier Part Number" value="53047-0210"/>
+      <property name="URL" value="https://tr.aliexpress.com/item/1005005909742256.html?spm=a2g0o.productlist.main.3.7e9b5Eei5EeiE2&amp;algo_pvid=6d470897-52dd-49af-9142-36ed9b0defca&amp;algo_exp_id=6d470897-52dd-49af-9142-36ed9b0defca-1&amp;pdp_npi=4%40dis%21TRY%2136.14%2136.14%21%21%217.67%217.67%21%402101e9ec17112000811413766e71e4%2112000034805206267%21sea%21TR%21755002112%21&amp;curPageLogUid=jTQazxHx8tsk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>14b502af-10bb-46e1-9b48-df906a036893</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>53047-0210</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical</footprint>
+      <datasheet>./Documents/Datasheet/53047-0210.pdf</datasheet>
+      <fields>
+        <field name="Description">Headers &amp; Wire Housings VERTICAL HDR 2P</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Package-Case">THT/VT</field>
+        <field name="Suplier">Aliexpress</field>
+        <field name="Suplier Part Number">53047-0210</field>
+        <field name="URL">https://tr.aliexpress.com/item/1005005909742256.html?spm=a2g0o.productlist.main.3.7e9b5Eei5EeiE2&amp;algo_pvid=6d470897-52dd-49af-9142-36ed9b0defca&amp;algo_exp_id=6d470897-52dd-49af-9142-36ed9b0defca-1&amp;pdp_npi=4%40dis%21TRY%2136.14%2136.14%21%21%217.67%217.67%21%402101e9ec17112000811413766e71e4%2112000034805206267%21sea%21TR%21755002112%21&amp;curPageLogUid=jTQazxHx8tsk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Headers &amp; Wire Housings VERTICAL HDR 2P"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Package-Case" value="THT/VT"/>
+      <property name="Suplier" value="Aliexpress"/>
+      <property name="Suplier Part Number" value="53047-0210"/>
+      <property name="URL" value="https://tr.aliexpress.com/item/1005005909742256.html?spm=a2g0o.productlist.main.3.7e9b5Eei5EeiE2&amp;algo_pvid=6d470897-52dd-49af-9142-36ed9b0defca&amp;algo_exp_id=6d470897-52dd-49af-9142-36ed9b0defca-1&amp;pdp_npi=4%40dis%21TRY%2136.14%2136.14%21%21%217.67%217.67%21%402101e9ec17112000811413766e71e4%2112000034805206267%21sea%21TR%21755002112%21&amp;curPageLogUid=jTQazxHx8tsk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>3e873627-81a8-452e-ac54-048661840916</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>53047-0210</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical</footprint>
+      <datasheet>./Documents/Datasheet/53047-0210.pdf</datasheet>
+      <fields>
+        <field name="Description">Headers &amp; Wire Housings VERTICAL HDR 2P</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Package-Case">THT/VT</field>
+        <field name="Suplier">Aliexpress</field>
+        <field name="Suplier Part Number">53047-0210</field>
+        <field name="URL">https://tr.aliexpress.com/item/1005005909742256.html?spm=a2g0o.productlist.main.3.7e9b5Eei5EeiE2&amp;algo_pvid=6d470897-52dd-49af-9142-36ed9b0defca&amp;algo_exp_id=6d470897-52dd-49af-9142-36ed9b0defca-1&amp;pdp_npi=4%40dis%21TRY%2136.14%2136.14%21%21%217.67%217.67%21%402101e9ec17112000811413766e71e4%2112000034805206267%21sea%21TR%21755002112%21&amp;curPageLogUid=jTQazxHx8tsk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Headers &amp; Wire Housings VERTICAL HDR 2P"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Package-Case" value="THT/VT"/>
+      <property name="Suplier" value="Aliexpress"/>
+      <property name="Suplier Part Number" value="53047-0210"/>
+      <property name="URL" value="https://tr.aliexpress.com/item/1005005909742256.html?spm=a2g0o.productlist.main.3.7e9b5Eei5EeiE2&amp;algo_pvid=6d470897-52dd-49af-9142-36ed9b0defca&amp;algo_exp_id=6d470897-52dd-49af-9142-36ed9b0defca-1&amp;pdp_npi=4%40dis%21TRY%2136.14%2136.14%21%21%217.67%217.67%21%402101e9ec17112000811413766e71e4%2112000034805206267%21sea%21TR%21755002112%21&amp;curPageLogUid=jTQazxHx8tsk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>52f3f26a-8e7d-4533-b33c-0e5062a33a32</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>53047-0210</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical</footprint>
+      <datasheet>./Documents/Datasheet/53047-0210.pdf</datasheet>
+      <fields>
+        <field name="Description">Headers &amp; Wire Housings VERTICAL HDR 2P</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Package-Case">THT/VT</field>
+        <field name="Suplier">Aliexpress</field>
+        <field name="Suplier Part Number">53047-0210</field>
+        <field name="URL">https://tr.aliexpress.com/item/1005005909742256.html?spm=a2g0o.productlist.main.3.7e9b5Eei5EeiE2&amp;algo_pvid=6d470897-52dd-49af-9142-36ed9b0defca&amp;algo_exp_id=6d470897-52dd-49af-9142-36ed9b0defca-1&amp;pdp_npi=4%40dis%21TRY%2136.14%2136.14%21%21%217.67%217.67%21%402101e9ec17112000811413766e71e4%2112000034805206267%21sea%21TR%21755002112%21&amp;curPageLogUid=jTQazxHx8tsk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Headers &amp; Wire Housings VERTICAL HDR 2P"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Package-Case" value="THT/VT"/>
+      <property name="Suplier" value="Aliexpress"/>
+      <property name="Suplier Part Number" value="53047-0210"/>
+      <property name="URL" value="https://tr.aliexpress.com/item/1005005909742256.html?spm=a2g0o.productlist.main.3.7e9b5Eei5EeiE2&amp;algo_pvid=6d470897-52dd-49af-9142-36ed9b0defca&amp;algo_exp_id=6d470897-52dd-49af-9142-36ed9b0defca-1&amp;pdp_npi=4%40dis%21TRY%2136.14%2136.14%21%21%217.67%217.67%21%402101e9ec17112000811413766e71e4%2112000034805206267%21sea%21TR%21755002112%21&amp;curPageLogUid=jTQazxHx8tsk&amp;utparam-url=scene%3Asearch%7Cquery_from%3A"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>673991b5-fd10-4e6d-ad63-2330604976df</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>SIS434DN</value>
+      <footprint>Library:PPAK1212-8</footprint>
+      <datasheet>./Documents/Datasheet/SIS434DN.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET DIS.35A 40V N-CH PPAK1212-8 TRENCHFET SMT</field>
+        <field name="Manufacturer">Vishay Siliconix</field>
+        <field name="Package-Case">PPAK1212-8</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">SIS434DN-T1-GE3</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/496913/SIS434DN-T1-GE3</field>
+      </fields>
+      <libsource lib="" part="SIS434DN_1" description=""/>
+      <property name="Description" value="MOSFET DIS.35A 40V N-CH PPAK1212-8 TRENCHFET SMT"/>
+      <property name="Manufacturer" value="Vishay Siliconix"/>
+      <property name="Package-Case" value="PPAK1212-8"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="SIS434DN-T1-GE3"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/496913/SIS434DN-T1-GE3"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>00771e7c-5d95-4406-a4ad-7ac82e5b5929</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>SIS434DN</value>
+      <footprint>Library:PPAK1212-8</footprint>
+      <datasheet>./Documents/Datasheet/SIS434DN.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET DIS.35A 40V N-CH PPAK1212-8 TRENCHFET SMT</field>
+        <field name="Manufacturer">Vishay Siliconix</field>
+        <field name="Package-Case">PPAK1212-8</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">SIS434DN-T1-GE3</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/496913/SIS434DN-T1-GE3</field>
+      </fields>
+      <libsource lib="" part="SIS434DN_1" description=""/>
+      <property name="Description" value="MOSFET DIS.35A 40V N-CH PPAK1212-8 TRENCHFET SMT"/>
+      <property name="Manufacturer" value="Vishay Siliconix"/>
+      <property name="Package-Case" value="PPAK1212-8"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="SIS434DN-T1-GE3"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/496913/SIS434DN-T1-GE3"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>b0e2132a-c98c-49fd-ae44-19b38295f57b</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>SIS434DN</value>
+      <footprint>Library:PPAK1212-8</footprint>
+      <datasheet>./Documents/Datasheet/SIS434DN.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET DIS.35A 40V N-CH PPAK1212-8 TRENCHFET SMT</field>
+        <field name="Manufacturer">Vishay Siliconix</field>
+        <field name="Package-Case">PPAK1212-8</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">SIS434DN-T1-GE3</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/496913/SIS434DN-T1-GE3</field>
+      </fields>
+      <libsource lib="" part="SIS434DN_1" description=""/>
+      <property name="Description" value="MOSFET DIS.35A 40V N-CH PPAK1212-8 TRENCHFET SMT"/>
+      <property name="Manufacturer" value="Vishay Siliconix"/>
+      <property name="Package-Case" value="PPAK1212-8"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="SIS434DN-T1-GE3"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/496913/SIS434DN-T1-GE3"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>2033f2fa-8c34-4520-be99-86dfe6ab1641</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>SIS434DN</value>
+      <footprint>Library:PPAK1212-8</footprint>
+      <datasheet>./Documents/Datasheet/SIS434DN.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET DIS.35A 40V N-CH PPAK1212-8 TRENCHFET SMT</field>
+        <field name="Manufacturer">Vishay Siliconix</field>
+        <field name="Package-Case">PPAK1212-8</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">SIS434DN-T1-GE3</field>
+        <field name="URL">https://ozdisan.com/Product/Detail/496913/SIS434DN-T1-GE3</field>
+      </fields>
+      <libsource lib="" part="SIS434DN_1" description=""/>
+      <property name="Description" value="MOSFET DIS.35A 40V N-CH PPAK1212-8 TRENCHFET SMT"/>
+      <property name="Manufacturer" value="Vishay Siliconix"/>
+      <property name="Package-Case" value="PPAK1212-8"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="SIS434DN-T1-GE3"/>
+      <property name="URL" value="https://ozdisan.com/Product/Detail/496913/SIS434DN-T1-GE3"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>1022294d-48d9-43a7-8686-bf697a9f2f54</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>80aba2d8-c569-4969-90f5-9fc6c949a96c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>8dcc575e-acb2-4e97-972c-393288f04750</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>8c4ac02c-8276-43fb-bac6-eb3eb7e48407</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>./Documents/Datasheet/Resistor-Royalohm.pdf</datasheet>
+      <fields>
+        <field name="Description">RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM</field>
+        <field name="Manufacturer">Royalohm</field>
+        <field name="Package-Case">0402</field>
+        <field name="Suplier">Ozdisan</field>
+        <field name="Suplier Part Number">0402WGJ0103TCE</field>
+        <field name="URL">https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Description" value="RES.(1005) 0402 10K Ohms 5% 1/16W 100PPM"/>
+      <property name="Package-Case" value="0402"/>
+      <property name="Manufacturer" value="Royalohm"/>
+      <property name="Suplier" value="Ozdisan"/>
+      <property name="Suplier Part Number" value="0402WGJ0103TCE"/>
+      <property name="URL" value="https://ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0402WGJ0103TCE/362331"/>
+      <property name="Sheetname" value="Motor Controller"/>
+      <property name="Sheetfile" value="motor_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Motor Controller/" tstamps="/7be5b43a-db95-40ee-b717-64d7a0762e11/"/>
+      <tstamps>327bef19-ebc8-4d23-95bd-421cbff1d9f3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SIS434DN_1">
+      <docs>N-Channel 40-V (D-S) MOSFET</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SIS434DN</field>
+        <field name="Footprint">Library:PPAK1212-8</field>
+        <field name="Datasheet">N-Channel 40-V (D-S) MOSFET</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Alperen" part="MPU-6500">
+      <docs>./Documents/Datasheet/MPU6500.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPU-6500</field>
+        <field name="Footprint">Alperen:MPU6500</field>
+        <field name="Datasheet">./Documents/Datasheet/MPU6500.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="no_connect"/>
+        <pin num="2" name="" type="no_connect"/>
+        <pin num="3" name="" type="no_connect"/>
+        <pin num="4" name="" type="no_connect"/>
+        <pin num="5" name="" type="no_connect"/>
+        <pin num="6" name="" type="no_connect"/>
+        <pin num="7" name="AUX_CL" type="input"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="AD0/SDO" type="output"/>
+        <pin num="10" name="REGOUT" type="output"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="" type="no_connect"/>
+        <pin num="15" name="" type="no_connect"/>
+        <pin num="16" name="" type="no_connect"/>
+        <pin num="17" name="" type="no_connect"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="RESV_1" type="passive"/>
+        <pin num="20" name="RESV_2" type="passive"/>
+        <pin num="21" name="AUX_DA" type="bidirectional"/>
+        <pin num="22" name="NCS" type="input"/>
+        <pin num="23" name="SCL/SCLK" type="input"/>
+        <pin num="24" name="SDA/SDI" type="bidirectional"/>
+        <pin num="25" name="EXP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Alperen" part="W25X20CLUXIG_TR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25X20CLUXIG_TR</field>
+        <field name="Footprint">Alperen:8-USON</field>
+        <field name="MANUFACTURER">Winbond Electronics Corp.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="~{WP}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="~{HOLD}" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="EXP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BuzzerSMD" part="5020">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Resonator_Small">
+      <description>Three pin ceramic resonator, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Filter*</fp>
+        <fp>Resonator*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Resonator_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR0540">
+      <description>40V 0.5A Schottky Power Rectifier Diode, SOD-123</description>
+      <docs>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0540</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F7" part="STM32F722RETx">
+      <description>STMicroelectronics Arm Cortex-M7 MCU, 512KB flash, 256KB RAM, 216 MHz, 1.7-3.6V, 50 GPIO, LQFP64</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32f722re.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F722RETx</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32f722re.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14" type="bidirectional"/>
+        <pin num="4" name="PC15" type="bidirectional"/>
+        <pin num="5" name="PH0" type="bidirectional"/>
+        <pin num="6" name="PH1" type="bidirectional"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="bidirectional"/>
+        <pin num="9" name="PC1" type="bidirectional"/>
+        <pin num="10" name="PC2" type="bidirectional"/>
+        <pin num="11" name="PC3" type="bidirectional"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0" type="bidirectional"/>
+        <pin num="15" name="PA1" type="bidirectional"/>
+        <pin num="16" name="PA2" type="bidirectional"/>
+        <pin num="17" name="PA3" type="bidirectional"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="bidirectional"/>
+        <pin num="21" name="PA5" type="bidirectional"/>
+        <pin num="22" name="PA6" type="bidirectional"/>
+        <pin num="23" name="PA7" type="bidirectional"/>
+        <pin num="24" name="PC4" type="bidirectional"/>
+        <pin num="25" name="PB0" type="bidirectional"/>
+        <pin num="26" name="PB1" type="bidirectional"/>
+        <pin num="27" name="PB2" type="bidirectional"/>
+        <pin num="28" name="PB10" type="bidirectional"/>
+        <pin num="29" name="PB11" type="bidirectional"/>
+        <pin num="30" name="VCAP_1" type="power_out"/>
+        <pin num="31" name="VSS" type="passive"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="bidirectional"/>
+        <pin num="34" name="PB13" type="bidirectional"/>
+        <pin num="35" name="PB14" type="bidirectional"/>
+        <pin num="36" name="PB15" type="bidirectional"/>
+        <pin num="37" name="PC6" type="bidirectional"/>
+        <pin num="38" name="PC7" type="bidirectional"/>
+        <pin num="39" name="PC8" type="bidirectional"/>
+        <pin num="40" name="PC9" type="bidirectional"/>
+        <pin num="41" name="PA8" type="bidirectional"/>
+        <pin num="42" name="PA9" type="bidirectional"/>
+        <pin num="43" name="PA10" type="bidirectional"/>
+        <pin num="44" name="PA11" type="bidirectional"/>
+        <pin num="45" name="PA12" type="bidirectional"/>
+        <pin num="46" name="PA13" type="bidirectional"/>
+        <pin num="47" name="VSS" type="passive"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="bidirectional"/>
+        <pin num="50" name="PA15" type="bidirectional"/>
+        <pin num="51" name="PC10" type="bidirectional"/>
+        <pin num="52" name="PC11" type="bidirectional"/>
+        <pin num="53" name="PC12" type="bidirectional"/>
+        <pin num="54" name="PD2" type="bidirectional"/>
+        <pin num="55" name="PB3" type="bidirectional"/>
+        <pin num="56" name="PB4" type="bidirectional"/>
+        <pin num="57" name="PB5" type="bidirectional"/>
+        <pin num="58" name="PB6" type="bidirectional"/>
+        <pin num="59" name="PB7" type="bidirectional"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="bidirectional"/>
+        <pin num="62" name="PB9" type="bidirectional"/>
+        <pin num="63" name="VSS" type="passive"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS63031DSK">
+      <description>Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps63031.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP*2.5x2.5mm*P0.5mm*EP1.2x2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63031DSK</field>
+        <field name="Footprint">Package_SON:WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps63031.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="L2" type="input"/>
+        <pin num="3" name="PGND" type="power_in"/>
+        <pin num="4" name="L1" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="passive"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="PGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Pressure" part="MS5611-01BA">
+      <description>Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=MS5611-01BA03&amp;DocType=Data+Sheet&amp;DocLang=English</docs>
+      <footprints>
+        <fp>LGA*3x5mm*P1.25mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MS5611-01BA</field>
+        <field name="Footprint">Package_LGA:LGA-8_3x5mm_P1.25mm</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=MS5611-01BA03&amp;DocType=Data+Sheet&amp;DocLang=English</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PS" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="CSB" type="input"/>
+        <pin num="5" name="CSB" type="input"/>
+        <pin num="6" name="SDO" type="output"/>
+        <pin num="7" name="SDI/SDA" type="bidirectional"/>
+        <pin num="8" name="SCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_MEC_5G">
+      <description>MEC 5G single pole normally-open tactile switch</description>
+      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</docs>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">SW_MEC_5G</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_B3U-1000P</field>
+        <field name="Datasheet">http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRLML6402">
+      <description>-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23</description>
+      <docs>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML6402</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Alperen">
+      <uri>C:\Users\user\Documents\KiCad\6.0/symbols/Alperen.kicad_sym</uri>
+    </library>
+    <library logical="BuzzerSMD">
+      <uri>C:\Users\user\Documents\Github\Tiny-Drone\Hardware\V2/Symbols/BuzzerSMD.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32F7">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_ST_STM32F7.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Pressure">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Pressure.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/IMU/SCL">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="PB10" pintype="bidirectional"/>
+      <node ref="U4" pin="8" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="3" name="/IMU/SDA">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="PB11" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="SDI/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/Main Controller/BEEPER">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="41" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Main Controller/BOOT0">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="60" pinfunction="BOOT0" pintype="input"/>
+    </net>
+    <net code="6" name="/Main Controller/DN">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="44" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/Main Controller/DP">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="45" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Main Controller/LED1">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Main Controller/LED2">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/Main Controller/M1">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="40" pinfunction="PC9" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Main Controller/M2">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U2" pin="39" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Main Controller/M3">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U2" pin="38" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/Main Controller/M4">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Main Controller/MPU_INT">
+      <node ref="U2" pin="24" pinfunction="PC4" pintype="bidirectional"/>
+      <node ref="U3" pin="12" pinfunction="INT" pintype="output"/>
+    </net>
+    <net code="15" name="/Main Controller/NRST">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="16" name="/Main Controller/PB0">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/Main Controller/SPI1_MISO">
+      <node ref="U2" pin="22" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U3" pin="9" pinfunction="AD0/SDO" pintype="output"/>
+    </net>
+    <net code="18" name="/Main Controller/SPI1_MOSI">
+      <node ref="U2" pin="23" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U3" pin="24" pinfunction="SDA/SDI" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Main Controller/SPI1_SCK">
+      <node ref="U2" pin="21" pinfunction="PA5" pintype="bidirectional"/>
+      <node ref="U3" pin="23" pinfunction="SCL/SCLK" pintype="input"/>
+    </net>
+    <net code="20" name="/Main Controller/SPI1_~{CS}">
+      <node ref="U2" pin="20" pinfunction="PA4" pintype="bidirectional"/>
+      <node ref="U3" pin="22" pinfunction="NCS" pintype="input"/>
+    </net>
+    <net code="21" name="/Main Controller/SPI3_MISO">
+      <node ref="U2" pin="52" pinfunction="PC11" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/Main Controller/SPI3_MOSI">
+      <node ref="U2" pin="53" pinfunction="PC12" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/Main Controller/SPI3_SCK">
+      <node ref="U2" pin="51" pinfunction="PC10" pintype="bidirectional"/>
+      <node ref="U5" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="24" name="/Main Controller/SPI3_~{CS}">
+      <node ref="U2" pin="50" pinfunction="PA15" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="25" name="/Main Controller/SWCLK">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="49" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/Main Controller/SWDIO">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="46" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/Main Controller/SWO">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="55" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/Main Controller/USART1_RX">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="59" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/Main Controller/USART1_TX">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="58" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/Main Controller/USART2_RX">
+      <node ref="U2" pin="17" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/Main Controller/USART2_TX">
+      <node ref="U2" pin="16" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/Main Controller/USB_DETECT_PIN">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="42" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/Main Controller/VBAT_ADC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/USB Communication/D+">
+      <node ref="J2" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/USB Communication/D-">
+      <node ref="J2" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PGND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="31" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="47" pinfunction="VSS" pintype="passive"/>
+      <node ref="U2" pin="63" pinfunction="VSS" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="20" pinfunction="RESV_2" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="EXP" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="9" pinfunction="EXP" pintype="passive"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="M1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="M2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="M3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="M4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J2-VBUS)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="44" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q2-C)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(U1-EN)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="PS/SYNC" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VINA" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(U1-L1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="L1" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U1-L2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="L2" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(U2-PH0)">
+      <node ref="U2" pin="5" pinfunction="PH0" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(U2-PH1)">
+      <node ref="U2" pin="6" pinfunction="PH1" pintype="bidirectional"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(U2-VCAP_1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="30" pinfunction="VCAP_1" pintype="power_out"/>
+    </net>
+    <net code="52" name="Net-(U3-FSYNC)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="FSYNC" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(U3-REGOUT)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="REGOUT" pintype="output"/>
+    </net>
+    <net code="54" name="VBUS">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="VCC">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="56" name="VDD">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U1" pin="10" pinfunction="FB" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="~{WP}" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="~{HOLD}" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="57" name="VDD_SENS">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="PS" pintype="input"/>
+    </net>
+    <net code="58" name="unconnected-(J2-ID-Pad4)">
+      <node ref="J2" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U2-PA0-Pad14)">
+      <node ref="U2" pin="14" pinfunction="PA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U2-PA1-Pad15)">
+      <node ref="U2" pin="15" pinfunction="PA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U2-PA10-Pad43)">
+      <node ref="U2" pin="43" pinfunction="PA10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U2-PB4-Pad56)">
+      <node ref="U2" pin="56" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(U2-PB5-Pad57)">
+      <node ref="U2" pin="57" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U2-PB8-Pad61)">
+      <node ref="U2" pin="61" pinfunction="PB8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U2-PB9-Pad62)">
+      <node ref="U2" pin="62" pinfunction="PB9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U2-PB12-Pad33)">
+      <node ref="U2" pin="33" pinfunction="PB12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U2-PB13-Pad34)">
+      <node ref="U2" pin="34" pinfunction="PB13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U2-PB14-Pad35)">
+      <node ref="U2" pin="35" pinfunction="PB14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U2-PB15-Pad36)">
+      <node ref="U2" pin="36" pinfunction="PB15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U2-PC1-Pad9)">
+      <node ref="U2" pin="9" pinfunction="PC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U2-PC2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U2-PC3-Pad11)">
+      <node ref="U2" pin="11" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U2-PC13-Pad2)">
+      <node ref="U2" pin="2" pinfunction="PC13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U2-PC14-Pad3)">
+      <node ref="U2" pin="3" pinfunction="PC14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U2-PC15-Pad4)">
+      <node ref="U2" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U2-PD2-Pad54)">
+      <node ref="U2" pin="54" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U3-AUX_CL-Pad7)">
+      <node ref="U3" pin="7" pinfunction="AUX_CL" pintype="input+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U3-AUX_DA-Pad21)">
+      <node ref="U3" pin="21" pinfunction="AUX_DA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pintype="no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pintype="no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U3-Pad6)">
+      <node ref="U3" pin="6" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3-Pad14)">
+      <node ref="U3" pin="14" pintype="no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3-Pad15)">
+      <node ref="U3" pin="15" pintype="no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U3-Pad16)">
+      <node ref="U3" pin="16" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U3-Pad17)">
+      <node ref="U3" pin="17" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U3-RESV_1-Pad19)">
+      <node ref="U3" pin="19" pinfunction="RESV_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U4-CSB-Pad4)">
+      <node ref="U4" pin="4" pinfunction="CSB" pintype="input+no_connect"/>
+      <node ref="U4" pin="5" pinfunction="CSB" pintype="input+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U4-SDO-Pad6)">
+      <node ref="U4" pin="6" pinfunction="SDO" pintype="output+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U6-Pad3)">
+      <node ref="U6" pin="3" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
