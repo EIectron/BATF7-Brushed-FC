@@ -8,7 +8,7 @@
    </h6>
   </b>
 
-<img src="/IMAGEs/Pins.png">
+<img src="IMAGEs/Pins.png">
 </div>
 
 Key Features
