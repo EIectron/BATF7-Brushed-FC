@@ -28,3 +28,4 @@ Specifications
 * Firmware version: Betaflight BATF7 3.5.0
 * Power Cable: 55mm, with JST-PH 2.0 connector, AKA PowerWhoop connector
 * Weight: 4.2g 
+
