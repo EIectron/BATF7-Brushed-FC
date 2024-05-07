@@ -63,8 +63,14 @@
     "visible_layers": "0015055_80000001",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
-    "filename": "TinyDrone-V2.kicad_prl",
+    "filename": "BATF7.kicad_prl",
     "version": 3
   },
   "project": {
